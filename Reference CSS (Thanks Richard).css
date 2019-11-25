@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+#background{
+    background-image: linear-gradient(
+    to left bottom,
+    rgba(62, 29, 139, 0.664),
+    rgba(228, 2, 2, 0.815)
+    ),
+    url('Backgrounds\ and\ Images/dragon img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+    position: relative;
+    filter: blur(.5rem);
+    background-position: center;
+}
+#container{
+    background: linear-gradient(to right bottom, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
+    position: absolute;
+    padding: 2rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* font-family: cursive; */
+    font-family: 'Lato', sans-serif;
+    filter: drop-shadow(1rem 1rem 1rem);
+}
+
+#laughing-face{    
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    filter: opacity(0.5);
+}
+
+#title{
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#paragraph{
+    font-size: 1.2rem;
+}
+
+#button{
+    background: linear-gradient(to left top, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
+    border-image: linear-gradient(to left top, rgba(0, 255, 255, 0.7), rgba(187, 0, 255, 0.7));
+    border-image-slice: 1;
+    border-width: .3rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
