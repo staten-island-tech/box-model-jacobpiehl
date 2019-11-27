@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    z-index: 5;
+    box-sizing: border-box;
+
 }
 
 #background{
@@ -19,7 +20,17 @@ body{
     position: relative;
     filter: blur(.5rem);
     background-position: center;
+
 }
+#zzz{    
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    filter: opacity(0.5);
+}
+
 #container{
     background: linear-gradient(to right bottom, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
     position: absolute;
@@ -32,14 +43,6 @@ body{
     filter: drop-shadow(1rem 1rem 1rem);
 }
 
-#laughing-face{    
-    position: absolute;
-    height: 50rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%); 
-    filter: opacity(0.5);
-}
 
 #title{
     text-align: center;
@@ -52,17 +55,16 @@ body{
     font-size: 1.2rem;
 }
 
-#button{
-    background: linear-gradient(to left top, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
+#button1{
+    background: linear-gradient(to left top, rgba(143, 197, 18, 0.7), rgba(74, 65, 77, 0.7));
     border-image: linear-gradient(to left top, rgba(0, 255, 255, 0.7), rgba(187, 0, 255, 0.7));
     border-image-slice: 1;
     border-width: .3rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bolder;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,0);
+    position: absolute;
+    left: 10%;
+    transform: translate(-10%,0);
 
-}
