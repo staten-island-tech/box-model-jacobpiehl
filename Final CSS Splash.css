@@ -1,3 +1,12 @@
+html {
+    height: 100vh;
+    text-transform: uppercase;
+    font-size: 62.5%;
+
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -18,12 +27,12 @@ body {
     
     
         position: relative;
-        filter: blur(.5rem);
+        filter: opacity(0.5rem);
         background-position: center;
 
 }
 
-#zzz{
+#why{
     position: absolute;
     height: 50rem;
     left: 50%;
@@ -35,3 +44,28 @@ body {
 
 }
         
+
+.hOlDer {
+    /*    background: linear-gradient(to left top, rgba(#6200EE, #344955);  Don't forget the parenthesis dum dum*/
+    background: linear-gradient(to right bottom, rgba(#6200EE), rgba(#355955));
+    position: absolute;
+    padding: 2.3rem;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto Slab', sans-serif;
+    filter: drop-shadow(3rem 2rem 1rem);
+
+
+
+}
+
+#title {
+    text-align: center;
+    font-style: italic;
+    font-size: 3.333333333rem;
+    margin: 0;
+
+
+
+}
