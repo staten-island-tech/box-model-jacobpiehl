@@ -7,14 +7,31 @@ body {
 
 .Background {
     background-image: linear-gradient(
-        to right top,
-        
+        to right bottom,
+        rgba(62, 29, 139, 0.664),
+        rgba(228, 2, 2, 0.815)
+        ),
+        url('Backgrounds\ and\ Images/Neutron Star.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    
+    
+        position: relative;
+        filter: blur(.5rem);
+        background-position: center;
 
+}
 
-
-    );
+#zzz{
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
 
 
 
 
 }
+        
