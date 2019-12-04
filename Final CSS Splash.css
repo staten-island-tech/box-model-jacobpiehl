@@ -1,5 +1,35 @@
+html {
+    height: 100vh;
+    background-color: lavenderblush;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 62.5%;
+
+
+
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
-    background: border-box;
+    box-sizing: border-box;
+}
+
+.Background {
+    background-image: linear-gradient(
+        to right top,
+        rgba(1,1,1,1),
+        rgba(0,0,0,0),
+    )
+    url('Backgrounds\ and\ Images/Neutron Star.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+    position: relative;
+    background-position: center;
+
 }
