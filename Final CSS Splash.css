@@ -1,41 +1,41 @@
 html {
     height: 100vh;
-    background-color: lavenderblush;
     position: relative;
     text-transform: uppercase;
     font-size: 62.5%;
-
-
-
 }
-
-
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-#Background {
+.Background {
     background-image: linear-gradient(
-        to right top,
-        rgb(25, 0, 255),
-        rgb(255, 0, 0),
-    )
-    url('/Background\ and\ Images/Star.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+        to right bottom,
+        rgba(62, 29, 139, 0.664),
+        rgba(228, 2, 2, 0.815)
+        ),
+        url('/Stuff/Star.jpg/..');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
     
     
         position: relative;
-        filter: opacity(0.5rem);
         background-position: center;
 
 }
 
-        
+#why{
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+
+}
+
+
 
 #hOlDer {
     /*    background: linear-gradient(to left top, rgba(#6200EE, #344955);  Don't forget the parenthesis dum dum*/
@@ -53,16 +53,17 @@ body {
     margin: 0;
     color: aqua;
 
-
 }
 
 #title {
+    filter: drop-shadow(1rem 1rem 2rem blue);
     text-align: center;
     font-style: italic;
     font-size: 3.333333333rem;
+    font-style: oblique;
+    font-size: 4rem;
     margin: 0;
-
-
+    color: aqua;
 
 }
 
