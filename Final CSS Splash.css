@@ -1,35 +1,108 @@
 html {
     height: 100vh;
-    background-color: lavenderblush;
     position: relative;
     text-transform: uppercase;
     font-size: 62.5%;
-
-
-
 }
-
-
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .Background {
     background-image: linear-gradient(
-        to right top,
-        rgba(1,1,1,1),
-        rgba(0,0,0,0),
-    )
-    url('Backgrounds\ and\ Images/Neutron Star.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+        to right bottom,
+        rgba(62, 29, 139, 0.664),
+        rgba(228, 2, 2, 0.815)
+        ),
+        url('/Stuff/Star.jpg/..');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
     
     
-    position: relative;
-    background-position: center;
+        position: relative;
+        background-position: center;
+
+}
+
+#why{
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+
+}
+
+
+
+#hOlDer {
+    /*    background: linear-gradient(to left top, rgba(#6200EE, #344955);  Don't forget the parenthesis dum dum*/
+    background: linear-gradient(to right bottom, rgba(#6200EE), rgba(#355955));
+    position: absolute;
+    padding: 2.3rem;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto Slab', sans-serif;
+    filter: drop-shadow(1rem 1rem 2rem blue);
+    text-align: center;
+    font-style: oblique;
+    font-size: 4rem;
+    margin: 0;
+    color: aqua;
+
+}
+
+#title {
+    filter: drop-shadow(1rem 1rem 2rem blue);
+    text-align: center;
+    font-style: italic;
+    font-size: 3.333333333rem;
+    font-style: oblique;
+    font-size: 4rem;
+    margin: 0;
+    color: aqua;
+
+}
+
+#paragraph {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(20, 209, 45, 10);
+    font-weight: bolder;
+
+}
+
+#button1 {
+    background: linear-gradient(to left bottom, rgba(216, 14, 14, 0.808), rgba(5, 255, 172, 0.856));
+    border-image: linear-gradient(to right top, rgb(122, 5, 255), rgba(166, 255, 0));
+    border-image-slice: 2;
+    border-width: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    position: absolute;
+    left: 60%;
+    transform: translate(-10%,10%)
+
+
+
+}
+#button2 {
+    background: linear-gradient(to left bottom, rgba(19, 231, 0, 0.808), rgba(12, 27, 243, 0.856));
+    border-image: linear-gradient(to right top, rgb(228, 243, 24), rgb(228, 30, 16));
+    border-image-slice: 2;
+    border-width: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    position: absolute;
+    right: 20%;
+    transform: translate(10%,10%);
+
 
 }
