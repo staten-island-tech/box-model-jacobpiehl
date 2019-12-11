@@ -9,13 +9,13 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.Background {
+#Background {
     background-image: linear-gradient(
         to right bottom,
         rgba(62, 29, 139, 0.664),
         rgba(228, 2, 2, 0.815)
         ),
-        url('/Stuff/Star.jpg/..');
+        url('Stuff/Star.jpg');
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -86,7 +86,7 @@ body {
     font-weight: bold;
     position: absolute;
     left: 60%;
-    transform: translate(-10%,10%)
+    transform: translate(-10%,10%);
 
 
 
@@ -101,8 +101,7 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     position: absolute;
-    right: 20%;
-    transform: translate(10%,10%);
-
+    right: 70%;
+    transform: translate(20%, 10%);
 
 }
