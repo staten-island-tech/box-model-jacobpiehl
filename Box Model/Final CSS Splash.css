@@ -9,7 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-#Background {
+.Background {
     background-image: linear-gradient(
         to right bottom,
         rgba(62, 29, 139, 0.664),
@@ -26,16 +26,6 @@ body {
 
 }
 
-#why{
-    position: absolute;
-    height: 50rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%); 
-
-}
-
-
 
 #hOlDer {
     /*    background: linear-gradient(to left top, rgba(#6200EE, #344955);  Don't forget the parenthesis dum dum*/
@@ -44,7 +34,7 @@ body {
     padding: 2.3rem;
     left: 50%;
     top: 30%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-35%);
     font-family: 'Roboto Slab', sans-serif;
     filter: drop-shadow(1rem 1rem 2rem blue);
     text-align: center;
@@ -72,7 +62,7 @@ body {
     font-size: 1.5rem;
     color: rgba(20, 209, 45, 10);
     font-weight: bolder;
-
+    letter-spacing: 0.1rem;
 }
 
 #button1 {
@@ -103,5 +93,12 @@ body {
     position: absolute;
     right: 70%;
     transform: translate(20%, 10%);
+}
+
+.align {
+    align-items: center;
+/*Yes, I know that align items won't work in a non-flex box. 
+For a second, I thought my buttons weren't flush so I thought this would help :l
+*/
 
 }
